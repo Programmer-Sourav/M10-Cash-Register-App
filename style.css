@@ -1,0 +1,90 @@
+
+:root {
+     --primary-color: #7c3aed;
+   }
+
+.container{
+     display: flex;
+     flex-direction: column;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+}
+
+.header{
+     color: var(--primary-color)
+}
+#bill-amount{
+     display: block;
+     border: 2px solid var(--primary-color);
+     width: 100%;
+     height: 32px;
+     margin: 16px;
+     max-width: 256px;
+     align-self: center;
+}
+
+#cash-given{
+     display: none;
+     width: 100%;
+     max-width: 256px;
+     margin: 16px;
+     height: 32px;
+     border: 2px solid var(--primary-color);
+     align-self: center;
+}
+
+#check-button{
+     display: none;
+     width: 100%;
+     max-width: 256px;
+     height: 32px;
+     margin: 16px;
+     background-color: #7c3aed;
+     text-align: center;
+     color: antiquewhite;
+     border: 2px solid var(--primary-color);
+     align-self: center;
+}
+#next-button{
+     display: block;
+     width: 100%;
+     max-width: 256px;
+     height: 32px;
+     margin: 16px;
+     background-color: #7c3aed;
+     text-align: center;
+     color: antiquewhite;
+     border: 2px solid var(--primary-color);
+     align-self: center;
+}
+
+#error-message {
+     display: block;
+     font-size: larger;
+     margin: 8px;
+     align-self: center;
+     text-align: center;
+     color: red;
+   }
+
+.notes-header  {
+     color:darkcyan;
+     margin: 16px;
+
+} 
+
+.notes-table{
+width: 50%;
+text-align: center;
+margin: auto;
+}
+
+th, td{
+     border: 2px solid var(--primary-color);
+     padding: 0.4rem;
+     width: 60px;
+     text-align: left;
+}
+
+
